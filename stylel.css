@@ -1,0 +1,64 @@
+.login-page {
+    background-color: #000000;
+    background-image: url('https://lh3.googleusercontent.com/C32GM2pjZ6uubiP4Nu_OZgRBzP-Z4NEp55HrcZLT9HHGbkDvzEBiQcpj7Halc8ZvXWOEGWYTz__oslduMzYufjIZuVIu8rbXVyU0iOdkOlwYrcrEt6Y=w1200-rj');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 2em 0;
+    padding-top: 13%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-wrapper {
+    background-color: rgba(252, 253, 246, 0.719);
+    border-radius: 3em;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 2em;
+    text-align: center;
+}
+
+.login-wrapper h2 {
+    font-size: 48px;
+    line-height: 1.46808511em;
+    margin-bottom: 0.4893617em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.login-wrapper input {
+    margin-bottom: 1em;
+    border: none;
+    outline: none;
+    border-radius: 0.8em;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+.login-wrapper .button {
+    font-size: 16px;
+    background-color: #326b24;
+    border: none;
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1rem;
+    margin-top: 1em;
+    padding: 0.8em 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+.login-wrapper .button:hover {
+    background-color: #3dacfe;
+    transform: translateY(-2px);
+}
+
+.login-wrapper .button:active {
+    transform: translateY(4px);
+}
